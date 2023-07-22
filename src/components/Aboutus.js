@@ -7,32 +7,6 @@ const Aboutus = () => {
   return (
     <Container maxW='full' flexWrap={'wrap'}>
       <HStack justifyContent={'space-around'} m='16' alignItems={'flex-start'} flexWrap={'wrap'}>
-        <Card maxW={'xl'} bgColor={'rgb(223, 168, 120)'}
-
-          transition={"all 0.3s"}
-          css={{
-            "&:hover": {
-              transform: "scale(1.1)",
-              color: "white",
-              margin: '16px'
-              // backgroundColor: 'rgba(254,239,204,0.8)',
-            },
-          }}>
-          <CardBody>
-            <Box mt='2' spacing='3'   >
-              <Heading size='md' fontFamily={'mono'}>Dev Code Community:</Heading>
-              <Text mt='6' fontFamily={'mono'}>
-                A tech enthusiast community that will help you to code, learn new technical
-                skills from scratch, exposure to various technical workshops, and yes will
-                surely provide you with the opportunity to grow your network with industry
-                experts. It is a platform that offers up some of the most amazing hackathons,
-                eventful meet-ups, and some boot camps with outcome-based learning. It also aims
-                to be the one-stop destination for developers with plentiful hard-core reliable
-                resources and readily provides exciting event updates!
-              </Text>
-            </Box>
-          </CardBody>
-        </Card>
         <Card maxW='xl' bgColor={'rgb(223, 168, 120)'}
           transition={"all 0.3s"}
           css={{
@@ -52,7 +26,32 @@ const Aboutus = () => {
               </Text>
             </Box>
           </CardBody>
-        </Card>
+        </Card> 
+
+        
+        <Card maxW='xl' bgColor={'rgb(223, 168, 120)'}
+          transition={"all 0.3s"}
+          css={{
+            "&:hover": {
+              transform: "scale(1.1)",
+              color: "white",
+              margin: '16px'
+
+            },
+          }}>
+          <CardBody>
+            <Box mt='2' spacing='3'  >
+              <Heading size='md' fontFamily={'mono'}>Dev Code Community:</Heading>
+              <Text mt='6' fontFamily={'mono'}>
+                A tech enthusiast community that will help you to code, learn new technical skills from scratch, exposure to various technical workshops, and yes will surely provide you with the opportunity to grow your network with industry experts. It is a platform that offers up some of the most amazing hackathons, eventful meet-ups, and some boot camps with outcome-based learning. It also aims to be the one-stop destination for developers with plentiful hard-core reliable resources and readily provides exciting event updates!
+              </Text>
+            </Box>
+          </CardBody>
+        </Card> 
+        
+        
+
+
         
       </HStack>
       <br />
