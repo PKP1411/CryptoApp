@@ -7,14 +7,13 @@ const Aboutus = () => {
   return (
     <Container maxW='full' flexWrap={'wrap'}>
       <HStack justifyContent={'space-around'} m='16' alignItems={'flex-start'} flexWrap={'wrap'}>
-        <Card maxW='xl' bgColor={'rgb(223, 168, 120)'}
+        <Card maxW='xl' h = '350px' bgColor={'rgb(223, 168, 120)'}
           transition={"all 0.3s"}
           css={{
-            "&:hover": {
-              transform: "scale(1.1)",
-              color: "white",
-              margin: '16px'
+            "&:hover": { 
 
+              color: "white",
+              transform: "scale(1.1)",
             },
           }}>
           <CardBody>
@@ -29,14 +28,12 @@ const Aboutus = () => {
         </Card> 
 
         
-        <Card maxW='xl' bgColor={'rgb(223, 168, 120)'}
+        <Card maxW='xl' h='350px' bgColor={'rgb(223, 168, 120)'}
           transition={"all 0.3s"}
           css={{
             "&:hover": {
-              transform: "scale(1.1)",
+              transform:"scale(1.1)",
               color: "white",
-              margin: '16px'
-
             },
           }}>
           <CardBody>

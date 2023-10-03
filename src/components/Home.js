@@ -8,7 +8,7 @@ import { motion } from "framer-motion";
 import { Footer } from "./Footer"
 import  Typo  from './Typo'
   
-
+ 
 const Home = () => {
   return (
     <Container maxW="full" bgColor={'rgba(254,239,204,0.8)'}>

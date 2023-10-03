@@ -1,24 +1,23 @@
 import React from 'react'
 import { Container, HStack, Heading } from '@chakra-ui/react'
 import { Card,  CardBody,  Box, Text,  } from '@chakra-ui/react'
+import { scales } from 'chart.js'
 
 const Typo = () => {
     return (
-        <Container maxW='full' flexWrap={'wrap'}>
+       <>
             <HStack justifyContent={'space-around'} m='16' alignItems={'flex-start'} flexWrap={'wrap'}>
-                <Card maxW='sm' bgColor={'rgb(223, 168, 120)'}
+                <Card maxW='sm' h = '400px' bgColor={'rgb(223, 168, 120)' }
                   
                     transition={"all 0.3s"}
                     css={{
                         "&:hover": {
-                            transform: "scale(1.1)",
                             color: "white",
-                            margin: '16px'
-                            // backgroundColor: 'rgba(254,239,204,0.8)',
+                            transform: " scale(1.1)"
                         },
                     }}>
                     <CardBody>
-                <Box mt='2' spacing='3'   >
+                <Box my='8' spacing='3'   >
                             <Heading size='md' fontFamily={'mono'}>About CryptoDetailer</Heading>
                             <Text mt='6' fontFamily={'mono'}>
                             CryptoDetailer is your one-stop destination for accessing real-time information and in-depth
@@ -29,18 +28,16 @@ const Typo = () => {
                 </Box>
               </CardBody>
                 </Card>
-                <Card maxW='sm' bgColor={'rgb(223, 168, 120)'}
+                <Card maxW='sm' h='400px' bgColor={'rgb(223, 168, 120)'}
                     transition={"all 0.3s"}
                     css={{
                         "&:hover": {
-                            transform: "scale(1.1)",
                             color: "white",
-                            margin: '16px'
-
+                            transform:" scale(1.1)"
                         },
                     }}>
                 <CardBody>
-                    <Box mt='2' spacing='3'  >
+                    <Box my='8' spacing='3'  >
                             <Heading size='md' fontFamily={'mono'}>Discover Top Cryptocurrencies</Heading>
                             <Text mt='6' fontFamily={'mono'}>
                             Stay updated with the latest trends in the cryptocurrency market. Explore the top-performing
@@ -50,17 +47,15 @@ const Typo = () => {
                     </Box>
                 </CardBody>
             </Card>
-                <Card maxW='sm' bgColor={'rgb(223, 168, 120)'} transition={"all 0.3s"}
+                <Card maxW='sm' h='400px' bgColor={'rgb(223, 168, 120)'} transition={"all 0.3s"}
                     css={{
                         "&:hover": {
-                            transform: "scale(1.1)",
                             color: "white",
-                            margin:'16px'
-
+                            transform:" scale(1.1)"
                         },
                     }}>
                 <CardBody>
-                        <Box mt='2' spacing='3' >
+                        <Box my='8' spacing='3' >
                             <Heading size='md' fontFamily={'mono'}>Never Miss a Beat with Trending Cryptocurrencies</Heading>
                             <Text mt='6' fontFamily={'mono'}>
                             Discover what's buzzing in the crypto community. Our trending section highlights the most
@@ -73,17 +68,15 @@ const Typo = () => {
             </HStack>
 
             <HStack justifyContent={'space-around'} m='16' alignItems={'flex-start'} flexWrap={'wrap'}>
-                <Card maxW='sm' bgColor={'rgb(223, 168, 120)'} transition={"all 0.3s"}
+                <Card maxW='sm' h='400px' bgColor={'rgb(223, 168, 120)'} transition={"all 0.3s"}
                     css={{
                         "&:hover": {
-                            transform: "scale(1.1)",
                             color: "white",
-                            margin: '16px'
-
+                            transform: " scale(1.1)"
                         },
                     }}>
                     <CardBody>
-                        <Box mt='2' spacing='3'   >
+                        <Box my='8' spacing='3'   >
                             <Heading size='md' fontFamily={'mono'}>Stay Informed with Crypto News</Heading>
                             <Text mt='6' fontFamily={'mono'}>
                                 Knowledge is power, and we've got you covered. Dive into our curated news section to stay informed about the latest developments, updates, and events impacting the cryptocurrency landscape.
@@ -91,18 +84,16 @@ const Typo = () => {
                         </Box>
                     </CardBody>
                 </Card>
-                <Card maxW='sm' bgColor={'rgb(223, 168, 120)'}
+                <Card maxW='sm' h='400px' bgColor={'rgb(223, 168, 120)'}
                     transition={"all 0.3s"}
                     css={{
                         "&:hover": {
-                            transform: "scale(1.1)",
                             color: "white",
-                            margin: '16px'
-
+                            transform: " scale(1.1)"
                         },
                     }}>
                     <CardBody>
-                        <Box mt='2' spacing='3'  >
+                        <Box my='8' spacing='3'  >
                             <Heading size='md' fontFamily={'mono'}>Search for Your Favorite Cryptocurrencies</Heading>
                             <Text mt='6' fontFamily={'mono'}>
                                 Looking for specific information about a particular cryptocurrency? Our powerful search feature allows you to quickly find detailed profiles and real-time data for any digital asset in our vast database.
@@ -110,18 +101,16 @@ const Typo = () => {
                         </Box>
                     </CardBody>
                 </Card>
-                <Card maxW='sm' bgColor={'rgb(223, 168, 120)'}
+                <Card maxW='sm' h='400px' bgColor={'rgb(223, 168, 120)'}
                     transition={"all 0.3s"}
                     css={{
                         "&:hover": {
-                            transform: "scale(1.1)",
                             color: "white",
-                            margin: '16px'
-
+                            transform: " scale(1.1)"
                         },
                     }}>
                     <CardBody>
-                        <Box mt='2' spacing='3'  >
+                        <Box my='8' spacing='3'  >
                             <Heading size='md' fontFamily={'mono'}>Join the CryptoDetailer Community</Heading>
                             <Text mt='6' fontFamily={'mono'}>
                                 Become a part of our growing community of cryptocurrency enthusiasts. Connect with like-minded individuals, share insights, and discuss the latest trends in our interactive forums and social media channels.
@@ -130,7 +119,7 @@ const Typo = () => {
                     </CardBody>
                 </Card>
             </HStack>
-        </Container>
+        </>
       
   )
 }
